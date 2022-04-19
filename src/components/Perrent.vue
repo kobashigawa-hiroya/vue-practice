@@ -22,8 +22,6 @@
 
 <div class="parent-content">
    <h3>親側の値</h3>
-   <p>{{}}</p>
-   <p>{{ obj4.text.value }}</p>
    <p>{{ obj5.description.value }}</p>
 </div>
    </div>

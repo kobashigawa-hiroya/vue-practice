@@ -1,9 +1,6 @@
 <template>
   <div>
 	Child ページ
-	<button @click="submit">空のobjectを代入</button>
-	<button @click="submit1">文字列を代入</button>
-	<input v-model="obj1" @input="input">
 	<p>{{text}}</p>
 	<p>{{ count }}</p>
   </div>
