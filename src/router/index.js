@@ -1,11 +1,52 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import Test from '../views/Test.vue'
+import BookList from '../views/BookList.vue'
+import BookDetail from '../components/BookDetail.vue'
+import VuexTest from '../components/VuexTest.vue'
+import Child from '../components/Child.vue'
+import Perrent from '../components/Perrent.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/test',
+    name: 'Test',
+    component: Test
+  },
+  {
+    path: '/list',
+    name: 'List',
+    component: BookList
+  },
+  {
+    path: '/list/:id',
+    name: 'Book',
+    component: BookDetail
+  },
+  {
+    path: '/detail',
+    name: 'detail',
+    component: BookDetail
+  },
+  {
+    path: '/vuex-test',
+    name: 'vuex',
+    component: VuexTest
+  },
+  {
+    path: '/child',
+    name: 'child',
+    component: Child
+  },
+  {
+    path: '/perrent',
+    name: 'perrent',
+    component: Perrent
   },
   {
     path: '/about',
