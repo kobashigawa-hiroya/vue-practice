@@ -2,7 +2,6 @@
   <div>
 	孫
     <input type="text" v-model="titleComputed" />
-    <button @click="submit">文字列を代入</button>
     <!-- <input v-model="obj3.gender.value" @input="input" /> -->
 
   </div>

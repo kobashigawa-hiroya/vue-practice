@@ -1,6 +1,6 @@
 <template>
   <div>
-	Child2(子ぺーじ)
+	Child2
   <input type="text" v-model="titleComputed" />
   <child-3 v-model:title="titleComputed"/>
   </div>
